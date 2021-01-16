@@ -69,7 +69,7 @@ export default function FormDialog({open, handleClose, employee, logon}) {
         <DialogTitle id="form-dialog-title">{employee.Name}</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            To check in or check out, please enter your pass code here.
+            To check in/out, please enter your pass code here.
           </DialogContentText>
           <TextField
             margin="dense"
